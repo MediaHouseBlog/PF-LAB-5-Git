@@ -9,7 +9,8 @@ main()
 	
 	if(strcmp (qualification,"MS")==0)
 	{
-		printf("Have you passed the interview ?")
+		printf("Have you passed the interview \(Yes/NO\) ?");
+		scanf("%s",interStatus);
 		if(strcmp(interStatus,"Yes")==0)
 		{
 			printf("You Are Hired\n");
